@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Bootstrap Demo</title>
+        <!--css links-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+
+    </head>
+    <body>
+        <!--tooltip start-->
+        <!--tootip on link-->
+        <p class="muted">Placeholder text to demonstrate some <a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip">inline links</a> with tooltips. This is now just filler, no killer. Content placed here just to mimic the presence of <a href="#" data-bs-toggle="tooltip" data-bs-title="Another tooltip">real text</a>. And all that just to give you an idea of how tooltips would look when used in real-world situations. So hopefully you've now seen how <a href="#" data-bs-toggle="tooltip" data-bs-title="Another one here too">these tooltips on links</a> can work in practice, once you use them on <a href="#" data-bs-toggle="tooltip" data-bs-title="The last tip!">your own</a> site or project.</p>
+
+        <!--custom tootip-->
+        <button type="button" class="btn btn-secondary btn_t"
+            data-bs-toggle="tooltip" data-bs-placement="right"
+            data-bs-custom-class="custom-tooltip"
+            data-bs-title="This top tooltip is themed via CSS variables.">Custom tooltip
+        </button>
+
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+            Tooltip on top
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+            Tooltip on top
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+            Tooltip on right
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+            Tooltip on bottom
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">
+            Tooltip on left
+        </button>
+        <!--tootip end-->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+      </body>
+</html>
